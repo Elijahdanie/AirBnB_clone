@@ -1,60 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles/4-common.css" />
-    <link rel="stylesheet" href="styles/3-header.css" />
-    <link rel="stylesheet" href="styles/3-footer.css" />
-    <link rel="stylesheet" href="styles/6-filters.css" />
-    <link rel="stylesheet" href="styles/7-places.css">
-    <title>AirBnb Clone</title>
-  </head>
-  <body>
-    <header></header>
-    <div class="container">
-      <section class="filters">
-        <div class="locations">
-          <h3>States</h3>
-          <h4>Choose a location</h4>
-          <div class="popover">
-            <h2>Lagos</h2>
-            <ul>
-              <li>Ikeja</li>
-              <li>Victoria Island</li>
-            </ul>
-            <h2>Rivers</h2>
-            <ul>
-              <li>Eagle Island</li>
-              <li>GRA</li>
-            </ul>
-          </div>
-        </div>
-        <div class="amenities">
-          <h3>Amenities</h3>
-          <h4>Select your amenities</h4>
-          <ul class="popover">
-            <li>Internet</li>
-            <li>TV</li>
-            <li>Kitchen</li>
-            <li>Iron</li>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles/4-common.css" />
+  <link rel="stylesheet" href="styles/3-header.css" />
+  <link rel="stylesheet" href="styles/3-footer.css" />
+  <link rel="stylesheet" href="styles/6-filters.css" />
+  <link rel="stylesheet" href="styles/8-places.css">
+  <title>AirBnb Clone</title>
+</head>
+
+<body>
+  <header></header>
+  <div class="container">
+    <section class="filters">
+      <div class="locations">
+        <h3>States</h3>
+        <h4>Choose a location</h4>
+        <div class="popover">
+          <h2>Lagos</h2>
+          <ul>
+            <li>Ikeja</li>
+            <li>Victoria Island</li>
+          </ul>
+          <h2>Rivers</h2>
+          <ul>
+            <li>Eagle Island</li>
+            <li>GRA</li>
           </ul>
         </div>
-        <button>Search</button>
-      </section>
-      <section class="places">
-        <h1>Places</h1>
+      </div>
+      <div class="amenities">
+        <h3>Amenities</h3>
+        <h4>Select your amenities</h4>
+        <ul class="popover">
+          <li>Internet</li>
+          <li>TV</li>
+          <li>Kitchen</li>
+          <li>Iron</li>
+        </ul>
+      </div>
+      <button>Search</button>
+    </section>
+    <section class="places">
+      <h1>Places</h1>
         <article>
-          <h2>My home</h2>
-        </article><article>
-          <h2>Tiny house</h2>
-        </article><article>
-          <h2>A suite</h2>
-      </section>
-    </div>
-    <footer>
-      <p>Best School</p>
-    </footer>
-  </body>
+          <div class="name_and_price">
+            <h2>View motel</h2>
+            <div class="price_by_night">N 3500</div>
+          </div>
+          <div class="information">
+            <div class="max_guest">
+              <i class="fa fa-users fa-3x" aria-hidden="true"></i>
+              <br>6 Guests
+            </div>
+            <div class="number_rooms">
+              <i class="fa fa-bed fa-3x" aria-hidden="true"></i>
+              <br>6 Room
+            </div>
+            <div class="number_bathrooms">
+              <i class="fa fa-bath fa-3x" aria-hidden="true"></i>
+              <br>2 Bathrooms
+            </div>
+          </div>
+          <div class="user">
+            <strong>Owner:</strong> Transcorp Hilton
+          </div>
+          <div class="description">
+            View Motel features a beautiful and moderately luxury interiors that 
+            fit your budget if you're for medium size luxurius room for the night
+            features a restaurant and a swimming pool, experience the beauty of Lagos
+            just in view motel.
+          </div>
+        </article>
+        <article>
+          <div class="name_and_price">
+            <h2>Boys Quaters</h2>
+            <div class="price_by_night">N 3500</div>
+          </div>
+          <div class="information">
+            <div class="max_guest">
+              <i class="fa fa-users fa-3x" aria-hidden="true"></i>
+              <br>2 Guests
+            </div>
+            <div class="number_rooms">
+              <i class="fa fa-bed fa-3x" aria-hidden="true"></i>
+              <br>2 Room
+            </div>
+            <div class="number_bathrooms">
+              <i class="fa fa-bath fa-3x" aria-hidden="true"></i>
+              <br>1 Bathrooms
+            </div>
+          </div>
+          <div class="user">
+            <strong>Owner:</strong> Elijah Effiong Daniel
+          </div>
+          <div class="description">
+            This is my magnificient and beautiful boys quarters
+            in my humble home, be my guest and enjoy the beatuful garden and
+            natural fragrance that saturates the atmostphere
+            Features two medium size room for 2 guests and one Bathrooms
+          </div>
+        </article>
+    </section>
+  </div>
+  <footer>
+    <p>Best School</p>
+  </footer>
+</body>
+
 </html>
